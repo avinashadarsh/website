@@ -1,1 +1,1 @@
-npm install && npm run start
+cd ../clientApp && npm install && ng build && cd ../ npm install && npm run start

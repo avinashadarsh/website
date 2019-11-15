@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "buildAngular": "cd ./angular && npm install && ng build",
+    "start": "npm run buildAngular && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
